@@ -13,7 +13,7 @@ $(document).ready(function () {
                 items:1,
             },
             749:{
-                items:1,
+                items:2,
                 stagePadding: 100,
             },
             1000:{
@@ -29,5 +29,13 @@ $(document).ready(function () {
                 stagePadding: 100,
             }   
         }
+    });
+
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+    
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
     });
 });

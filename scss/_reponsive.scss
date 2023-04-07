@@ -1,0 +1,316 @@
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .nav-pc{
+        display: none;
+    }
+
+    .nav-icon-menu{
+        display: block;
+    }
+    /* ---HEADER--- */
+    .menu ul li .btn-inquiry{
+        padding: 7px 15px;
+    }
+
+    .menu ul li a{
+        padding: 0px 10px;
+    }
+
+    .container-hearder{
+        padding-right: 30px;
+    }
+
+    .hearder .logo{
+        width: 120px;
+        height: 120px;
+    }
+
+
+    // --BANNER--
+    .title{
+        font-size: $font-size-title-tablet;
+    }
+
+    .img-banner {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* --INTRODUCTION-- */
+    .introduction {
+        padding: $padding-title-tablet 0px;
+    }
+
+    .introduction-title {
+        margin-bottom: 20px;
+        font-weight: lighter;
+        font-size: $font-size-title-tablet;
+    }
+
+    .text-introduction p {
+        font-size: $font-size-info-title-tablet;
+        margin-bottom: 3px;
+    }
+
+    .company{
+        padding: $padding-title-tablet 0px;
+    }
+
+    .title-section {
+        height: 100px;
+    }
+
+    .title-section h2 {
+        font-size: $font-size-title-tablet;
+    }
+
+    .title-section p {
+        font-size: 10pt;
+    }
+
+    .container-center {
+        padding: 25px 30px;
+        width: 100%;
+    }
+
+    .table-information tr td{
+        font-size: 14px;
+    }
+
+    // --SERVICE
+    .service .title-section h2{
+        font-size: $font-size-title-tablet;
+    }
+
+    .service .title-section span{
+        font-size: $font-size-info-title-tablet;
+    }
+
+    .service .news h3{
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .service .news p{
+        padding: 25px 65px;
+        font-size: 12pt;
+    }
+
+    .programming .title-programming h2{
+        font-size: $font-size-title-tablet;
+    }
+
+    // --CASE STUDY
+    .case-study .backgroud-case-study{
+        padding-bottom: 83px;
+        padding-top: 83px;
+    }
+    
+    .section-title h2 {
+        font-weight: lighter;
+        font-size: $font-size-title-tablet;
+    }
+
+    .img-case-study {
+        height: 270px;
+    }
+
+    // --CONTACT
+    .container-contact .title-contact{
+        margin-bottom: 40px;
+    }
+    
+    .title-contact h2{
+        font-size:$font-size-title-tablet;
+    }
+   
+    // RECRUIT
+    .recruit .recruit-title h2{
+        font-size:$font-size-title-tablet;
+    }
+
+    .recruit .recruit-title{
+        margin-bottom: 250px;
+    }
+    
+    .recruit .recruit-background{
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+     /* ---HEADER--- */
+    .nav-pc{
+        display: none;
+    }
+
+    .container-hearder{
+        padding-right: 30px;
+    }
+
+    .menu ul li .btn-inquiry{
+        padding: 7px 15px;
+    }
+
+    .nav-icon-menu{
+        display: block;
+    }
+
+    .hearder .logo{
+        width: 120px;
+        height: 120px;
+    }
+
+    /* --BANNER-- */
+    .img-banner {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .title{
+        font-size: 20pt;
+    }
+
+    /* --INTRODUCTION-- */
+    .introduction {
+        padding: 30px 0px;
+    }
+
+    .introduction-title {
+        margin-bottom: 20px;
+        font-weight: lighter;
+        font-size: 20pt;
+    }
+
+    .text-introduction p {
+        font-size: 10pt;
+        margin-bottom: 3px;
+    }
+
+    .company{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .title-section {
+        height: 80px;
+    }
+
+    .title-section h2 {
+        font-size: 20pt;
+    }
+
+    .title-section p {
+        font-size: 10pt;
+    }
+
+    .container-center {
+        padding: 25px 30px;
+        width: 100%;
+    }
+
+    .table-information tr td{
+        font-size: 14px;
+    }
+
+    // --SERVICE
+    .service{
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .service .news{
+        width: 90%;
+        padding-bottom: 0px;
+    }
+
+    .service .title-section h2{
+        font-size: $font-size-title-moblie;
+    }
+
+    .service .title-section span{
+        font-size: $font-size-info-title-moblie;
+    }
+
+    .service .news h3{
+        height: 50px;
+        font-size: 22px;
+    }
+
+    .service .news p{
+        padding: 20px 30px;
+        font-size: 12pt;
+    }
+
+    .programming .title-programming h2{
+        font-size: $font-size-title-tablet;
+    }
+
+    // PROGRAMING
+    .container-programming{
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .programming .title-programming h2{
+        font-size: $font-size-title-moblie;
+    }
+
+    .container-programming div h4 {
+        font-size: 16pt;
+        padding: 5px;
+    }
+
+    // STUDY
+    .section-title h2{
+        font-size: $font-size-title-moblie;
+    }
+
+    .case-study .backgroud-case-study{
+        padding: 83px 0px;
+    }
+
+    // SLIDER
+    .case-study-carousel{
+        padding: 60px 0px;
+    }
+
+    .img-case-study{
+        height: 280px;
+    }
+
+    // CONTACT
+    .contact {
+        padding: 50px 0px;
+    }
+
+    .container-contact .title-contact h2{
+        font-size: $font-size-title-moblie;
+    }
+
+    .container-contact .title-contact{
+        margin-bottom: 50px;
+    }
+
+    .container-contact .form-contact div{
+        height: 95px;
+    }
+
+    // RECRUIT
+    .recruit .recruit-title h2{
+        font-size: $font-size-title-moblie;
+    }
+
+    .recruit-background-linear-gradient {
+        height: 30px;
+    }
+
+    .recruit .recruit-title{
+        margin-bottom: 300px;
+    }
+
+    .recruit .recruit-background{
+        height: 350px;
+    }
+}
