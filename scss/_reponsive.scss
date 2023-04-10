@@ -69,7 +69,7 @@
     }
 
     .container-center {
-        padding: 25px 30px;
+        padding: 30px 30px;
         width: 100%;
     }
 
@@ -123,6 +123,11 @@
     .title-contact h2{
         font-size:$font-size-title-tablet;
     }
+
+    .container-contact  .contact-item label{
+        padding-top: 0px;
+    }
+    
    
     // RECRUIT
     .recruit .recruit-title h2{
@@ -169,7 +174,7 @@
     }
 
     .title{
-        font-size: 20pt;
+        font-size: $font-size-title-moblie;
     }
 
     /* --INTRODUCTION-- */
@@ -234,13 +239,13 @@
     }
 
     .service .news h3{
-        height: 50px;
-        font-size: 22px;
+        height: 45px;
+        font-size: 15px;
     }
 
     .service .news p{
-        padding: 20px 30px;
-        font-size: 12pt;
+        padding: 20px 15px;
+        font-size: 10pt;
     }
 
     .programming .title-programming h2{
@@ -293,8 +298,15 @@
         margin-bottom: 50px;
     }
 
-    .container-contact .form-contact div{
-        height: 95px;
+    .container-contact  .contact-item{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        margin-bottom: 5px;
+    }
+
+    .submit-contact{
+        margin-top: 50px;
     }
 
     // RECRUIT

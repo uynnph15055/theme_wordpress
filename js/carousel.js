@@ -13,12 +13,12 @@ $(document).ready(function () {
                 items:1,
             },
             749:{
-                items:2,
-                stagePadding: 100,
+                items:1,
+                stagePadding: 120,
             },
             1000:{
                 items:2,
-                stagePadding: 100,
+                stagePadding: 120,
             },
             1470:{
                 items:3,

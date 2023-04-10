@@ -204,6 +204,10 @@ body {
     padding-left: 0px;
 }
 
+.table-information tr td p, .table-information tr td ul li{
+    font-weight: normal;
+}
+
 .table-information tr td:first-child {
     width: 99px;
     font-weight: bold;
@@ -238,7 +242,7 @@ body {
 }
 
 .container-center {
-    padding: 0px 115px;
+    padding: 40px 115px;
     width: 920px;
 }
 
@@ -257,13 +261,13 @@ body {
 }
 
 .service {
+    position: relative;
     background-image: linear-gradient(to left, #15CCBC, #1b55b1);
     padding-top: 61px;
     padding-bottom: 53px;
 }
 
 .service .news {
-    font-weight: bold;
     padding-bottom: 26px;
 }
 
@@ -271,7 +275,6 @@ body {
     padding: 38px 87px;
     background-color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold;
 }
 
 .service .news h3 {
@@ -282,7 +285,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 26px;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 
 .text-white {
@@ -298,6 +301,17 @@ body {
 .service .title-section span {
     font-size: 14pt;
 }
+
+.position-service{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 70px;
+    transform: rotate(90deg);
+    margin:0;
+}
+
+// --------
 
 .programming {
     padding-top: 75px;
@@ -397,16 +411,20 @@ body {
     margin-bottom: 0px;
 }
 
+.carousel-post-card  .item-title{
+    height: 116px;
+    background-color: #738ba7;
+    position: relative;
+}
+
 .carousel-post-card .card h5 {
     padding: 26px 27px;
-    height: 116px;
     color: #FFFFFF;
-    background-color: #738ba7;
     margin-bottom: 0px;
 }
 
 .arrow-down {
-    top: 176px;
+    top: 116px;
     left: 0;
     right: 0;
     position: absolute;
@@ -464,7 +482,6 @@ body {
 }
 
 .card .card-body div p {
-    color: #002D60;
     font-size: 14px;
 }
 
@@ -517,18 +534,26 @@ body {
     margin-bottom: 114px;
 }
 
-.container-contact .form-contact div {
-    height: 69px;
-}
-
 .container-contact .form-contact div input {
     height: 62px;
     border-radius: 7px;
+    width: 100%;
 }
 
 .container-contact .form-contact div textarea {
     height: 177px;
     border-radius: 7px;
+}
+
+.container-contact  .contact-item{
+    display: grid;
+    grid-template-columns: 30% auto;
+    margin-bottom: 25px;
+    grid-gap: 10px;
+}
+
+.container-contact  .contact-item label{
+    padding-top: 20px;
 }
 
 .submit-contact {
