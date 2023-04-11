@@ -211,7 +211,7 @@
     }
 
     .title-section {
-        height: 80px;
+        height: 100px;
     }
 
     .title-section h2 {
@@ -247,7 +247,7 @@
     }
 
     .service .title-section span{
-        font-size: $font-size-info-title-moblie;
+        font-size: 20px;
     }
 
     .service .news h3{
@@ -321,6 +321,14 @@
         margin-top: 50px;
     }
 
+    .card .card-body .card-content-1 {
+        height: 150px;
+    }
+
+    .carousel-post-card .card h5{
+        padding: 20px;
+    }
+
     // RECRUIT
     .recruit .recruit-title h2{
         font-size: $font-size-title-moblie;
@@ -335,6 +343,6 @@
     }
 
     .recruit .recruit-background{
-        height: 350px;
+        height: 400px;
     }
 }

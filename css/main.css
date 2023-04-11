@@ -175,7 +175,7 @@ body {
 }
 
 .title-section h2 {
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 45px;
 }
 
@@ -293,13 +293,14 @@ body {
 }
 
 .service .title-section h2 {
-  font-size: 45px;
-  font-weight: lighter;
+  font-size: 25px;
+  font-weight: bold;
   color: #FFFFFF;
 }
 
 .service .title-section span {
   font-size: 20px;
+  font-weight: bold;
 }
 
 .programming {
@@ -320,11 +321,13 @@ body {
 .programming .title-programming h2 {
   margin-bottom: 7px;
   font-size: 45px;
+  font-weight: bold;
 }
 
 .programming .title-programming span {
   margin-top: 70px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .container-programming div {
@@ -862,7 +865,7 @@ body {
     padding-bottom: 30px;
   }
   .title-section {
-    height: 80px;
+    height: 100px;
   }
   .title-section h2 {
     font-size: 20pt;
@@ -889,7 +892,7 @@ body {
     font-size: 25px;
   }
   .service .title-section span {
-    font-size: 12pt;
+    font-size: 20px;
   }
   .service .news h3 {
     height: 45px;
@@ -943,6 +946,12 @@ body {
   .submit-contact {
     margin-top: 50px;
   }
+  .card .card-body .card-content-1 {
+    height: 150px;
+  }
+  .carousel-post-card .card h5 {
+    padding: 20px;
+  }
   .recruit .recruit-title h2 {
     font-size: 25px;
   }
@@ -953,7 +962,7 @@ body {
     margin-bottom: 300px;
   }
   .recruit .recruit-background {
-    height: 350px;
+    height: 400px;
   }
 }
 
