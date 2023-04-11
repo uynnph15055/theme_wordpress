@@ -265,15 +265,10 @@ body {
 
 .service {
     position: relative;
-    background-image: linear-gradient(to left, #15CCBC, #1b55b1);
+    background-image: url(./../images/banner_service.png);
+    background-size: cover;
     padding-top: 61px;
     padding-bottom: 53px;
-}
-
-.service::before {
-    content: "service";
-    text-transform: uppercase;
-    transform: rotate(90deg);
 }
 
 
@@ -570,10 +565,6 @@ body {
     grid-template-columns: 25% auto;
     margin-bottom: 25px;
     grid-gap: 10px;
-}
-
-.container-contact  .contact-item label{
-    padding-top: 20px;
 }
 
 .submit-contact {

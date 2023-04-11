@@ -261,15 +261,10 @@ body {
 
 .service {
   position: relative;
-  background-image: linear-gradient(to left, #15CCBC, #1b55b1);
+  background-image: url(./../images/banner_service.png);
+  background-size: cover;
   padding-top: 61px;
   padding-bottom: 53px;
-}
-
-.service::before {
-  content: "service";
-  text-transform: uppercase;
-  transform: rotate(90deg);
 }
 
 .service .news {
@@ -561,10 +556,6 @@ body {
   grid-gap: 10px;
 }
 
-.container-contact .contact-item label {
-  padding-top: 20px;
-}
-
 .submit-contact {
   margin-top: 200px;
 }
@@ -815,9 +806,6 @@ body {
   }
   .title-contact h2 {
     font-size: 27pt;
-  }
-  .container-contact .contact-item label {
-    padding-top: 0px;
   }
   .recruit .recruit-title h2 {
     font-size: 27pt;
