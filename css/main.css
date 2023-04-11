@@ -293,7 +293,7 @@ body {
 }
 
 .service .title-section h2 {
-  font-size: 25px;
+  font-size: 45px;
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -370,7 +370,8 @@ body {
 
 .recruit .recruit-background {
   width: 100%;
-  height: 591px;
+  height: 700px;
+  object-fit: cover;
 }
 
 .footer-content {
@@ -519,6 +520,10 @@ body {
   color: #FFFFFF;
   padding-bottom: 100px;
   padding-top: 75px;
+}
+
+.col-form-label {
+  padding-top: 0;
 }
 
 .container-contact {
@@ -868,7 +873,7 @@ body {
     height: 100px;
   }
   .title-section h2 {
-    font-size: 20pt;
+    font-size: 25px;
   }
   .title-section p {
     font-size: 10pt;
