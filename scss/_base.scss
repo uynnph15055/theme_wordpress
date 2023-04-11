@@ -62,6 +62,31 @@
     left: 5px;
   }
 
+  .owl-carousel .owl-nav.disabled {
+    display: block !important;
+    z-index: 10 !important;
+  }
+  
+  .owl-carousel .owl-prev{
+    position: absolute !important;
+    top: 50%;
+    left: 6%;
+    font-size: 3rem !important;
+  }
+  
+  .owl-carousel .owl-next{
+    position: absolute !important;
+    top: 50%;
+    right: 6%;
+    font-size: 3rem !important;
+  }
+  
+  .owl-carousel .owl-prev:hover,
+  .owl-carousel .owl-next:hover{
+    background-color: transparent !important;
+    color: #000 !important;
+  }
+
   /* --COMMON-- */
 @keyframes fadeIn{
     from{

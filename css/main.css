@@ -150,12 +150,13 @@ body {
 
 .introduction-title {
   margin-bottom: 47px;
-  font-weight: lighter;
-  font-size: 37pt;
+  font-weight: bold;
+  font-size: 45px;
 }
 
 .text-introduction p {
-  font-size: 13pt;
+  font-size: 20px;
+  font-weight: bold;
   margin-bottom: 3px;
 }
 
@@ -175,12 +176,12 @@ body {
 
 .title-section h2 {
   font-weight: lighter;
-  font-size: 34pt;
+  font-size: 45px;
 }
 
 .title-section span {
   font-weight: bold;
-  font-size: 13pt;
+  font-size: 20px;
 }
 
 .company-information {
@@ -265,6 +266,12 @@ body {
   padding-bottom: 53px;
 }
 
+.service::before {
+  content: "service";
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
 .service .news {
   padding-bottom: 26px;
 }
@@ -291,22 +298,13 @@ body {
 }
 
 .service .title-section h2 {
-  font-size: 34pt;
+  font-size: 45px;
   font-weight: lighter;
   color: #FFFFFF;
 }
 
 .service .title-section span {
-  font-size: 14pt;
-}
-
-.position-service {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  font-size: 70px;
-  transform: rotate(90deg);
-  margin: 0;
+  font-size: 20px;
 }
 
 .programming {
@@ -326,11 +324,12 @@ body {
 
 .programming .title-programming h2 {
   margin-bottom: 7px;
+  font-size: 45px;
 }
 
 .programming .title-programming span {
   margin-top: 70px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .container-programming div {
@@ -341,6 +340,7 @@ body {
   background-image: linear-gradient(to left, #15CCBC, #1b55b1);
   font-size: 18pt;
   margin-bottom: 22px;
+  padding: 4px 0px;
 }
 
 .container-programming div p {
@@ -361,7 +361,13 @@ body {
 }
 
 .recruit .recruit-title h2 {
-  font-weight: inherit;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.recruit .recruit-title p {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .recruit .recruit-background {
@@ -448,19 +454,19 @@ body {
 }
 
 .card .card-body .card-content-1 {
-  height: 126px;
+  height: 140px;
 }
 
 .card .card-body .card-content-2 {
-  height: 88px;
+  height: 100px;
 }
 
 .card .card-body .card-content-3 {
-  height: 82px;
+  height: 100px;
 }
 
 .card .card-body .card-content-4 {
-  height: 70px;
+  height: 100px;
 }
 
 .card .card-body div .font-blue {
@@ -478,8 +484,8 @@ body {
   font-size: 14px;
 }
 
-.card .card-body div p {
-  margin-bottom: -2px;
+.card .card-body div ul li {
+  font-size: 14px;
 }
 
 .card .card-body div .font-blue {
@@ -527,6 +533,16 @@ body {
   margin-bottom: 114px;
 }
 
+.container-contact .title-contact h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.container-contact .title-contact span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .container-contact .form-contact div input {
   height: 62px;
   border-radius: 7px;
@@ -540,7 +556,7 @@ body {
 
 .container-contact .contact-item {
   display: grid;
-  grid-template-columns: 30% auto;
+  grid-template-columns: 25% auto;
   margin-bottom: 25px;
   grid-gap: 10px;
 }
@@ -561,18 +577,13 @@ body {
 }
 
 .section-title h2 {
-  font-weight: lighter;
-  font-size: 42px;
-}
-
-.section-title p {
   font-weight: bold;
-  font-size: 48pt;
+  font-size: 45px;
 }
 
-h2 {
-  font-weight: lighter;
-  font-size: 33pt;
+.section-title span {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .text-right {
@@ -662,6 +673,31 @@ h2 {
   transform: rotate(-45deg);
   top: 20px;
   left: 5px;
+}
+
+.owl-carousel .owl-nav.disabled {
+  display: block !important;
+  z-index: 10 !important;
+}
+
+.owl-carousel .owl-prev {
+  position: absolute !important;
+  top: 50%;
+  left: 6%;
+  font-size: 3rem !important;
+}
+
+.owl-carousel .owl-next {
+  position: absolute !important;
+  top: 50%;
+  right: 6%;
+  font-size: 3rem !important;
+}
+
+.owl-carousel .owl-prev:hover,
+.owl-carousel .owl-next:hover {
+  background-color: transparent !important;
+  color: #000 !important;
 }
 
 /* --COMMON-- */
@@ -761,6 +797,18 @@ h2 {
   }
   .img-case-study {
     height: 270px;
+  }
+  .card .card-body .card-content-1 {
+    height: 150px;
+  }
+  .card .card-body .card-content-1 {
+    height: 120px;
+  }
+  .card .card-body .card-content-3 {
+    height: 100px;
+  }
+  .card .card-body .card-content-4 {
+    height: 100px;
   }
   .container-contact .title-contact {
     margin-bottom: 40px;

@@ -8,6 +8,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 10000,
         autoplayHoverPause: true,
+        nav:true,
         responsive: {
             0:{
                 items:1,
